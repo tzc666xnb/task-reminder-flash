@@ -1,0 +1,15 @@
+# runtime-only files (shipped templates tasks.json / settings.json stay tracked)
+data/app.log
+data/app.pid
+data/stdout.log
+data/stderr.log
+data/tasks.json.tmp
+data/tasks.json.old
+data/settings.json.tmp
+data/settings.json.old
+data/*.broken-*
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
